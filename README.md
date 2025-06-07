@@ -105,12 +105,12 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"list_decks
 
 1. **Initialize the server:**
 ```json
-{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocol_version":"2025-03-26","capabilities":{"roots":{"list_changed":false},"sampling":{}},"client_info":{"name":"test-client","version":"1.0.0"}}}
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{"roots":{"list_changed":false},"sampling":{}},"clientInfo":{"name":"test-client","version":"1.0.0"}}}
 ```
 
 2. **List available tools:**
 ```json
-{"jsonrpc":"2.0","id":2,"method":"tools/list"}
+{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}
 ```
 
 3. **List all Anki decks:**
@@ -120,7 +120,7 @@ echo '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"list_decks
 
 4. **List available resources:**
 ```json
-{"jsonrpc":"2.0","id":4,"method":"resources/list"}
+{"jsonrpc":"2.0","id":4,"method":"resources/list","params":{}}
 ```
 
 5. **Get connection help:**
