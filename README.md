@@ -1,6 +1,6 @@
 # AnkiConnect MCP Server
 
-⚠️ **Work in Progress** ⚠️
+⚠️ **Work in Progress** ⚠️\
 This project is in early development. Expect breaking changes, incomplete features, and potential instability.
 
 A Model Context Protocol (MCP) server implementation in Rust that provides seamless integration with Anki flashcard software through the AnkiConnect plugin.
